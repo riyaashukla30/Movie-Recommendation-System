@@ -1,18 +1,25 @@
-<<<<<<< HEAD
 # Movie Recommendation System
 
-A content-based movie recommendation system that suggests similar movies based on user preferences using similarity algorithms.
+A content-based movie recommendation system that suggests similar movies based on user input using similarity techniques.
 
-## Tech
+## Features
+- Recommends movies based on selected title  
+- Uses similarity matrix for accurate suggestions  
+- Simple and interactive web interface  
+
+## Tech Stack
 Python, Pandas, Scikit-learn, Flask, HTML, CSS  
 
-## How it works
-- Loads movie datasets (`movies.csv`, `ratings.csv`)  
-- Processes data and creates similarity matrix  
+## How it Works
+- Loads movie datasets  
+- Processes data and creates similarity scores  
 - Takes user input (movie name)  
-- Recommends similar movies  
+- Returns top similar movies  
 
-## Setup & Run
-=======
-# Movie-Recommendation-System
->>>>>>> f1d878f5ae1d5dfe4ba7291b9c4bc05e0f2d4228
+## Run
+pip install -r requirements.txt  
+python app.py  
+
+## Author
+Riya Shukla  
+https://github.com/riyaashukla30
